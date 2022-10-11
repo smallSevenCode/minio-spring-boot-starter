@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "minio.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启",
+      "defaultValue": false
+    },
+    {
+      "name": "minio.endpoint",
+      "type": "java.lang.String",
+      "description": "URL地址",
+      "defaultValue": ""
+    },
+    {
+      "name": "minio.accessKey",
+      "type": "java.lang.String",
+      "description": "账户秘钥",
+      "defaultValue": ""
+    },
+    {
+      "name": "minio.secretKey",
+      "type": "java.lang.String",
+      "description": "密码秘钥",
+      "defaultValue": ""
+    },
+    {
+      "name": "minio.bucketName",
+      "type": "java.lang.String",
+      "description": "桶",
+      "defaultValue": ""
+    }
+  ]
+}
